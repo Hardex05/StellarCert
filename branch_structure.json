@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-89-trust-proxy-is-unconditionally-true-making-x",
+    "main",
+    "origin",
+    "security/issue-90-app-wide-ratelimitguard-uses-an-unbounded",
+    "security/issue-91-global-validation-pipe-returns-the-sanitized"
+  ],
+  "parent": {
+    "fix/issue-89-trust-proxy-is-unconditionally-true-making-x": "main",
+    "main": null,
+    "origin": "main",
+    "security/issue-90-app-wide-ratelimitguard-uses-an-unbounded": "main",
+    "security/issue-91-global-validation-pipe-returns-the-sanitized": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-89-trust-proxy-is-unconditionally-true-making-x",
+    "origin",
+    "security/issue-90-app-wide-ratelimitguard-uses-an-unbounded",
+    "security/issue-91-global-validation-pipe-returns-the-sanitized"
+  ]
+}
